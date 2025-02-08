@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB2 PRO Chatgpt Clone</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/fontawesome.min.js" integrity="sha512-j12pXc2gXZL/JZw5Mhi6LC7lkiXL0e2h+9ZWpqhniz0DkDrO01VNlBrG3LkPBn6DgG2b8CDjzJT+lxfocsS1Vw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="light-mode">
+   <!--chat container--> 
+   <div class="chat-container">
+    <div class="chat outgoing">
+        <div class="chat-content">
+            <div class="chat-details">
+                <img src="./Images/user-icon.jpg" alt="user-img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, aspernatur?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat incoming">
+        <div class="chat-content">
+            <div class="chat-details">
+                <img src="./Images/icons8-chatgpt-48.png" alt="chatbot-img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, aspernatur?</p>
+            </div>
+            <span class="material-symbols-rounded"><i class="fa-regular fa-copy"></i></span>
+        </div>
+    </div>
+    <div class="chat incoming">
+        <div class="chat-content">
+            <div class="chat-details">
+                <img src="./Images/icons8-chatgpt-48.png" alt="chatbot-img">
+                <div class="typing-animation">
+                    <div class="typing-dot" style="--delay: 0.2s"></div>
+                    <div class="typing-dot" style="--delay: 0.3s"></div>
+                    <div class="typing-dot" style="--delay: 0.4s"></div>
+                </div>
+            </div>
+            <span class="material-symbols-rounded"><i class="fa-regular fa-copy"></i></span>
+        </div>
+    </div>
+   </div>
+   <!--Typing container-->
+   <div class="typing-container">
+    <div class="typing-content">
+        <div class="typing-textarea">
+            <textarea name="" id="chat-input" placeholder="Enter a prompt here"></textarea>
+            <span id="send-btn" class="material-symbols-rounded"><i class="fa-regular fa-paper-plane"></i></span>
+        </div>
+        <div class="typing-controls">
+            <span id="theme-btn" class="material-symbols-rounded"><i class="fa-regular fa-sun"></i></span>
+            <span id="delete-btn" class="material-symbols-rounded"><i class="fa-solid fa-trash"></i></span>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
