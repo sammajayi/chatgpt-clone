@@ -5,3 +5,33 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
+
+:root{
+    --text-color: #ffffff;
+    --icon-color: #ACACBE;
+    --icon-hover-bg: #5b5e71;
+    --placeholder-color: #cccccc;
+    --outgoing-chat-bg: #343541;
+    --incoming-cat-bg: #444654;
+    --outgoing-chat-order: #343541;
+    --incoming-chat-border: #444654;
+}
+
+body {
+    background: var(--outgoing-chat-bg);
+}
+
+.chat-container .chat{
+    color: var(--text-color)
+}
+
+.chat .chat-details {
+    display: flex;
+}
+
+.chat .chat-details img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius:2px;
+}
