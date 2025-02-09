@@ -11,9 +11,11 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <script src="script.js" defer></script>
 </head>
 
-<body class="light-mode">
+<body>
    <!--chat container--> 
    <div class="chat-container">
     <div class="chat outgoing">
@@ -53,7 +55,7 @@
    <div class="typing-container">
     <div class="typing-content">
         <div class="typing-textarea">
-            <textarea name="" id="chat-input" placeholder="Enter a prompt here"></textarea>
+            <textarea name="" id="chat-input" placeholder="Enter a prompt here" required></textarea>
             <span id="send-btn" class="material-symbols-rounded"><i class="fa-regular fa-paper-plane"></i></span>
         </div>
         <div class="typing-controls">
