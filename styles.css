@@ -145,6 +145,8 @@ animation: animateDots 1.5s var(--delay) ease-in-out infinite;
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
     padding: 20px 10px;
     background-image: var(--outgoing-chat-bg);
     border: 1px solid var(--incoming-chat-border);
